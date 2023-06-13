@@ -1,0 +1,25 @@
+{
+  "name": "responsive-design-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiprianoPrince/responsive-design-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CiprianoPrince/responsive-design-project/issues"
+  },
+  "homepage": "https://github.com/CiprianoPrince/responsive-design-project#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
